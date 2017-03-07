@@ -11,5 +11,6 @@ public class FloorDisplay implements Observer{
 	public void Update() {
 		int curFloor = elevatorController.getCurFloor();
 		System.out.println("Floor Display: " + curFloor) ;
+		System.out.println("kim nam ho babo ") ;
 	}
 }
